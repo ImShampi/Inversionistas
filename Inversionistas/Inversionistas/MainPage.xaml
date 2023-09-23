@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Inversionistas.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="MediumPurple" Padding="24" CornerRadius="0">
+            <Label Text="App para Inversores" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Label Text="Monto del Inversor 1"/>
+        <Entry Placeholder="Ingrese el Monto" x:Name="Inv1" Keyboard="Numeric"/>
+        <Label Text="Monto del Inversor 2"/>
+        <Entry Placeholder="Ingrese el Monto" x:Name="Inv2" Keyboard="Numeric"/>
+        <Label Text="Monto del Inversor 3"/>
+        <Entry Placeholder="Ingrese el Monto" x:Name="Inv3" Keyboard="Numeric"/>
+
+        <Button Text="Calcular" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>

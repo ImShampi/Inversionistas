@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Inversionistas.Page1">
+    <StackLayout>
+
+        <Frame BackgroundColor="MediumPurple" Padding="24" CornerRadius="0">
+            <Label Text="App para Inversores" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Monto total: "/>
+        <Entry IsEnabled="False" x:Name="Total"/>
+
+        <Label Text="Inversor 1"/>
+        <Entry IsEnabled="False" x:Name="Inve1"/>
+
+        <Label Text="Inversor 2"/>
+        <Entry IsEnabled="False" x:Name="Inve2"/>
+
+        <Label Text="Inversor 3"/>
+        <Entry IsEnabled="False" x:Name="Inve3"/>
+
+    </StackLayout>
+</ContentPage>
